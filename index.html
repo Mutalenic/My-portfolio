@@ -15,7 +15,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark p-10 text-light navbar-dark">
       <div class="container">
         <a href="#">Nicholas</a>
         <button
@@ -28,30 +28,37 @@
         </button>
         <div class="collapse navbar-collapse" id="nav-menu">
           <ul class="navbar-nav ms-auto">
-            <li class="navbar-item"><a href="#">Portfolio</a></li>
-            <li class="navbar-item"><a href="#">contact</a></li>
-            <li class="navbar-item"><a href="#">About </a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>  
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a> 
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
           </ul>
         </div>
       </div>
-      <div>
+      <div class=" text-light ">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
           </svg>
       </div>
     </nav>
-    <section class="text-center">
-      <div class="container">
+    <section class="bg-dark text-light p-5 text-center" style="background-image: url('./bgimages/twocirclesheader.png')">
+      <div class="container text-enter w-50">
         <h1>Nicholas Mutale</h1>
         <h2>Software Developer</h2>
+        
         <p>
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hestiate to contact me.
         </p>
       </div>
-            <div>
-        <ul> 
+            <div class="col d-sm-flex justify-content-center">
+        <ul class="list-group-flush"> 
           <li>Language</li>
           <li>Javascript</li>
           <li>Ruby</li>
@@ -75,13 +82,13 @@
             <li>Terminal</li>
             </ul>
       </div>
-      <hr/>
+      <hr class="w-25 align-items-center">
       <div class="container">
           <span>Work<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
           </svg></span>
           <div>
-            <ul>
+            <ul class="d-flex justify-content-center">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                   <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -107,14 +114,14 @@
           <div>
     </section>
 
-          <section>
+          <section class="bg-dark text-light">
         <div class="container">
           <h2>My recent work</h2>
         </div>
-        <hr>
       </section>
+      <hr class="w-25 justify-content-center">
 
-      <section>
+      <section class="bg-dark text-light">
         <div class="container">
         <div class="row">
           <div class="col-sm-8">
@@ -136,13 +143,10 @@
                    </div>
              </div>
             </div> 
-           </div>        
-
-          
-        
+           </div>       
         </section>
-        <section class="container">
-          <div class="row align-items-center justify-content-center">
+        <section class="bg-dark container">
+          <div class="col-12 col-lg-6">
           <div class="col-6 text-center">
             <h3>
               Let’s chat!
@@ -168,10 +172,10 @@
           </form>
           </div>
         </section>
-        <hr>
+        <hr class="w-25 pl-24">
         <footer>
-          <div>
-            <ul>
+          <div class="d-sm-flex justify-content-center">
+            <ul class="list-group-item border-0 custom-border-bottom d-flex justify-content-between align-items-cente">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                   <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -190,9 +194,9 @@
               
               
             </ul>
-            <h4>nicomutale@gmail.com<h4>
           </div>
-
+          
+          <h4>nicomutale@gmail.com<h4>
 
         </footer>
 
